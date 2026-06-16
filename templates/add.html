@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <title>Жаңа кітап қосу</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="container mt-5" style="max-width: 500px;">
+    <h2>Жаңа кітап қосу</h2>
+    <form method="POST" class="mt-4">
+        <div class="mb-3">
+            <label class="form-label">Кітап атауы:</label>
+            <input type="text" name="title" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Авторы:</label>
+            <input type="text" name="author" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Жанры:</label>
+            <input type="text" name="genre" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Шыққан жылы:</label>
+            <input type="number" name="published_year" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-success">Сақтау</button>
+        <a href="/" class="btn btn-secondary">Артқа қайту</a>
+    </form>
+</body>
+</html>
